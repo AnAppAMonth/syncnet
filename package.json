@@ -1,0 +1,37 @@
+{
+    "name": "syncnet",
+
+    "version": "0.1.1",
+
+    "description": "A simple synchronous TCP library for Node.js",
+
+    "author": "Feng Qiu <feng@ban90.com>",
+
+    "license": "MIT",
+  
+    "keywords": ["synchronous", "network", "addon"],
+  
+    "main": "main.js",
+
+    "gypfile": true,
+  
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "install": "node-gyp rebuild"
+    },
+
+    "dependencies": {},
+
+    "engines": {
+        "node": ">=0.8.x"
+    },
+
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/halfninety/syncnet.git"
+    },
+  
+    "bugs": {
+        "url": "https://github.com/halfninety/syncnet/issues"
+    }
+}
